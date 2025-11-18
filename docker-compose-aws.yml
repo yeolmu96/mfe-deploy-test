@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   micro-frontend-deploy:
-    image: ghcr.io/${GITHUB_ACTOR}/mfe-deploy-test:latest
+    image: ghcr.io/yeolmu96/mfe-deploy-test:latest
     container_name: micro-frontend-deploy
     ports:
       - "8080:80"
